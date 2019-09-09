@@ -1,0 +1,223 @@
+ <!DOCTYPE HTML>
+<center><html>
+<head>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+<title>ORDERS</title>
+</head>
+
+<body bgcolor="#000000">
+
+<!-- https://sabliran.github.io/sabliran/  -->
+
+
+
+<script> //javascript
+
+
+function myFunction() { 
+var eightHours = 8;
+var wra = Number(prompt("what time will you sleep?"));
+{
+
+document.getElementById("ex").innerHTML =
+"the time you will sleep (" + wra + ") And you must get up at (" +Number (wra + eightHours) + ")";
+
+
+}
+window.alert ("You must get up at " +Number (wra + eightHours));
+
+}
+
+
+function myFunction1() { 
+var hex = 6;
+var wra1 = Number(prompt("berlin time?"));
+{
+
+
+
+}
+window.alert ("new york time is  " +Number (wra1 + hex));
+
+
+}
+
+
+
+</script>
+
+
+
+
+
+<form>
+
+
+<div class="container">
+ <!-- Dropdowns
+  The .dropdown class is used to indicate a dropdown menu.
+  Use the .dropdown-menu class to actually build the dropdown menu.
+  To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".   -->                  
+
+
+
+
+                    <!-- cola fridge -->                     
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">cola fridge
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a onclick="add('cola')">cola</a></li>
+      <li><a onclick="add('fanta')">fanta</a></li>
+      <li><a onclick="add('blutorange')">blutorange</a></li>
+      <li><a onclick="add('mate ')">mate</a></li>
+      <li><a onclick="add('juju banana ')">juju banana</a></li>
+      <li><a onclick="add('juju mango')">juju mango?</a></li>
+      <li><a onclick="add('juju passion')">juju passion?</a></li>
+      
+      
+
+      
+      
+    </ul>
+  </div>
+</div>
+
+<!-- red wines -->
+<div class="container">
+
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">red wines
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a onclick="add('tozara')">tozara</a></li>
+      <li><a onclick="add('chianti')">chianti</a></li>
+      <li><a onclick="add('merlot')">merlot</a></li>
+      <li><a onclick="add('Spätburgunder')">Spätburgunder</a></li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+
+
+<div class="container">
+
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">beers
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a onclick="add(' hefe hell ')">hefe hell </a></li>
+      <li><a onclick="add('kristal ')">kristal</a></li>
+      <li><a onclick="add('berliner ')">berliner</a></li>
+      <li><a onclick="add('alk free ')">alk free</a></li>
+      <li><a onclick="add('unertl ')">unertl</a></li>
+      <li><a onclick="add('zwickel ')">zwickel</a></li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+<!-- tonic -->
+
+
+<div class="container">
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">tonic
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a onclick="add('tonic')">tonic</a></li>
+
+      <li><a onclick="add('ginger ale ')">ginger ale</a></li>
+      <li><a onclick="add('bitter lemon')">bitter lemon</a></li>
+      <li><a onclick="add('orangina')">orangina</a></li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+
+<!--  cola zero -->
+
+<div class="container">
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">cola zero
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a onclick="add('cola zero')">cola zero</a></li>
+
+      <li><a onclick="add('ginger root ')">ginger root</a></li>
+      <li><a onclick="add('sprite')">sprite</a></li>
+      <li><a onclick="add('orangina')">orangina</a></li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+
+<!-- small bottle of water -->
+
+<div class="container">
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">small water
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a onclick="add('small still water')">small still water</a></li>
+
+      <li><a onclick="add('small medium water ')">small medium water</a></li>
+      <li><a onclick="add('null')">null</a></li>
+      <li><a onclick="add('malz')">malz</a></li>
+
+
+
+    </ul>
+  </div>
+</div>
+
+
+
+<!-- system -->
+
+<div class="container">
+
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">system
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a onclick="undo()">undo</a></li>
+      <li><a onclick="DeleteFood()">RESET</a></li>
+      <li><a onclick="refreshh()">REFRESH</a></li>
+      <li><a onclick="appear()">show</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+<script type="text/javascript" src="cafe.js"></script> 
+
+
+<div id="result"></div>
+<form>
+
+</body>
+
+
+ </html> </center>
